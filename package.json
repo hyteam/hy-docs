@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hyteam/hy-docs.git",
+  "author": "impdx <ceo@impdx.vip>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
